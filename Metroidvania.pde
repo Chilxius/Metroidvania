@@ -542,9 +542,9 @@ void loadGame()
     println("ERROR LOADING FILE");
     
     //Loads default data
-    currentMap = 3;
-    player.xPos = 275;
-    player.yPos = 275;
+    currentMap = 0;
+    player.xPos = 75;
+    player.yPos = 75;
     player.coins = 0;
     player.keys = 0;
   }
